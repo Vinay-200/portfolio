@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav>header>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    height: 50px;
+    width: 1550px;
+    padding: 20px;
+    background-color: black; 
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section .left{
+    height: 600px;
+    width: 400px;
+    text-align: center;
+}
+section .right{
+    background-image: url("./nene.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    /* border: 3px solid; */
+    height: 650px;
+    width: 650px;
+}
+h1{
+    font-size: 50px;
+    /* color: white; */
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: blue;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+}
+.left{
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+    color: blue;
+
+}
+h4{
+    font-size: 20px;
+    /* color: white; */
+}
+nav>header>ul:link{
+    border: 2px solid blue;
+}
+
+button:hover{
+    transform: scale(1.1,1);
+}
+/* .class2{
+
+} */
+nav>header>ul:visited{
+    color: white;
+}
+#br{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 100px;
+}
+.div{
+    border: 2px solid red;
+    
+}
+#am{
+    border: 2px solid red;
+}

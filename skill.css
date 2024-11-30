@@ -1,0 +1,46 @@
+h1{
+    font-size: 60px;
+}
+#id{
+    font-size: 40px;
+}
+#demo{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    height: 50px;
+    width: 1550px;
+    padding: 20px;
+    background-color: black;
+
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 00px;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+}
+a:visited{
+    color: white;
+}
+h1:hover{
+    transform: scale(1.1,1);
+    color: red;
+}
+
+
+       

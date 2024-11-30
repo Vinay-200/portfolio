@@ -1,0 +1,48 @@
+nav>header>ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 2px solid black;
+    height: 50px;
+    width: 1550px;
+    padding: 20px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    text-decoration-style: dashed;
+}
+div{
+    margin-left: 50px;
+    font-size: 25px;
+    border: 2px solid red;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 50px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a:visited{
+    color: white;
+}
+button:hover{
+    transform: scale(1.1,1);
+}
